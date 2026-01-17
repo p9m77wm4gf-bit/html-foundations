@@ -15,15 +15,26 @@
     </header>
 
     <main>
-      <h1>Matteo</h1>
+      <h1>Contatti</h1>
 
-<section>
-  <h2>Obiettivo</h2>
+<form>
   <p>
-    Diventare junior web developer entro inizio aprile con competenze verificabili
-    e progetti pubblici su GitHub.
+    <label for="name">Nome</label><br />
+    <input id="name" name="name" type="text" />
   </p>
-</section>
+
+  <p>
+    <label for="email">Email</label><br />
+    <input id="email" name="email" type="email" />
+  </p>
+
+  <p>
+    <label for="message">Messaggio</label><br />
+    <textarea id="message" name="message" rows="5"></textarea>
+  </p>
+
+  <button type="submit">Invia</button>
+</form>
     </main>
 
     <footer>
